@@ -80,7 +80,7 @@ class wordCloud():
             count += 1
         plt.tight_layout(pad=0)
         plt.show()
-        fig.savefig( self.currentDirectory + '/Figures/wordcloud_' + maskName + '.png', dpi = 300)
+        #fig.savefig( self.currentDirectory + '/Figures/wordcloud_' + maskName + '.png', dpi = 300)
 
     # --------------------------------------------------------------------------
 
